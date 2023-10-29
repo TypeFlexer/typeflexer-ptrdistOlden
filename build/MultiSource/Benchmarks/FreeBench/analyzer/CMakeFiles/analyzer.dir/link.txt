@@ -1,0 +1,1 @@
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary analyzer.link.time /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang      -O3      CMakeFiles/analyzer.dir/analyzer.c.o CMakeFiles/analyzer.dir/functs.c.o CMakeFiles/analyzer.dir/help.c.o CMakeFiles/analyzer.dir/parse_settings.c.o CMakeFiles/analyzer.dir/types.c.o  -o analyzer 

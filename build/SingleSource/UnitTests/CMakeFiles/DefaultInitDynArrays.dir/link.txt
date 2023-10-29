@@ -1,0 +1,1 @@
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary DefaultInitDynArrays.link.time /usr/bin/g++       -O3      CMakeFiles/DefaultInitDynArrays.dir/DefaultInitDynArrays.cpp.o  -o DefaultInitDynArrays 

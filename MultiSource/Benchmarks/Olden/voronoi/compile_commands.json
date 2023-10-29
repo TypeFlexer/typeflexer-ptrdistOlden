@@ -1,0 +1,74 @@
+[
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/voronoi.dir/args.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/voronoi/args.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/voronoi",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/voronoi/args.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/voronoi/CMakeFiles/voronoi.dir/args.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/voronoi.dir/newvor.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/voronoi/newvor.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/voronoi",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/voronoi/newvor.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/voronoi/CMakeFiles/voronoi.dir/newvor.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/voronoi.dir/output.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/voronoi/output.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/voronoi",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/voronoi/output.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/voronoi/CMakeFiles/voronoi.dir/output.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/voronoi.dir/vector.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/voronoi/vector.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/voronoi",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/voronoi/vector.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/voronoi/CMakeFiles/voronoi.dir/vector.c.o"
+  }
+]

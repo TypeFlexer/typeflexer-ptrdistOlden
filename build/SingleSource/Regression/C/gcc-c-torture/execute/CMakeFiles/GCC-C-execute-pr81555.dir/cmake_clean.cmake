@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/GCC-C-execute-pr81555.dir/pr81555.c.o"
+  "GCC-C-execute-pr81555"
+  "GCC-C-execute-pr81555.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/GCC-C-execute-pr81555.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

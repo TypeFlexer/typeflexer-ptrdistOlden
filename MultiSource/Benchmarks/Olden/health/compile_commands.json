@@ -1,0 +1,74 @@
+[
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/health.dir/args.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/args.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/health",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/args.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/health/CMakeFiles/health.dir/args.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/health.dir/health.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/health.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/health",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/health.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/health/CMakeFiles/health.dir/health.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/health.dir/list.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/list.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/health",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/list.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/health/CMakeFiles/health.dir/list.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/health.dir/poisson.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/poisson.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/health",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/poisson.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/health/CMakeFiles/health.dir/poisson.c.o"
+  }
+]

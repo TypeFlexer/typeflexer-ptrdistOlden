@@ -1,0 +1,56 @@
+[
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/treeadd.dir/args.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/args.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/treeadd",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/args.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/treeadd/CMakeFiles/treeadd.dir/args.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/treeadd.dir/node.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/node.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/treeadd",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/node.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/treeadd/CMakeFiles/treeadd.dir/node.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/treeadd.dir/par-alloc.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/par-alloc.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/treeadd",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/par-alloc.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/treeadd/CMakeFiles/treeadd.dir/par-alloc.c.o"
+  }
+]

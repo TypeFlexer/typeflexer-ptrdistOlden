@@ -1,0 +1,1 @@
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary anagram.link.time /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang     -fwasmsbx -DWASM_SBX -fPIE  -O3      CMakeFiles/anagram.dir/anagram.c.o  -o anagram   -L/home/arun/Desktop/WASM_SBX  -Wl,-rpath,/home/arun/Desktop/WASM_SBX -ldl -lstdc++ -lSBX_CON_LIB -lisc_lib_final 

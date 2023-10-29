@@ -1,0 +1,29 @@
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/codesize.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/compiletime.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/hash.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/hpmcount.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/microbenchmark.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/perf.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/profilegen.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/remote.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/run.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/run_under.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/stats.py
+Loaded test module /home/arun/Desktop/typeflexer-llvm-test-suite/build/litsupport/modules/timeit.py
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit-target --limit-core 0 --limit-cpu 7200 --timeout 7200 --limit-file-size 104857600 --limit-rss-size 838860800 --append-exitstatus --redirect-output /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/Output/anagram.test.out --redirect-input /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/input.OUT --chdir /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram --summary /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/Output/anagram.test.time /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/anagram words 2
+
+
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/fpcmp-target /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/Output/anagram.test.out /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/anagram.reference_output
+
+
+/usr/bin/strip --remove-section=.comment --remove-section='.note*' -o /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/anagram.stripped /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/anagram
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit-target --limit-core 0 --limit-cpu 7200 --timeout 7200 --limit-file-size 104857600 --limit-rss-size 838860800 --append-exitstatus --redirect-output /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/yacr2/Output/yacr2.test.out --redirect-input /dev/null --chdir /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/yacr2 --summary /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/yacr2/Output/yacr2.test.time /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/yacr2/yacr2 input2.in
+
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit-target: error: child terminated by signal 11
+
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/HashProgramOutput.sh /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/yacr2/Output/yacr2.test.out
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/fpcmp-target /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/yacr2/Output/yacr2.test.out /home/arun/Desktop/typeflexer-llvm-test-suite/build/MultiSource/Benchmarks/Ptrdist/yacr2/yacr2.reference_output
+
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/fpcmp-target: Comparison failed, textual difference between 'a' and '7'
+
+ExitCode: 1

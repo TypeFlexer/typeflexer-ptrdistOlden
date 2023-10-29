@@ -1,0 +1,1 @@
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary GCC-C-execute-20040823-1.link.time /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang      -O3      CMakeFiles/GCC-C-execute-20040823-1.dir/20040823-1.c.o  -o GCC-C-execute-20040823-1 

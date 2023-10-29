@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arun/Desktop/typeflexer-llvm-test-suite/tools/timeit.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+signal.h
+-
+unistd.h
+-
+sys/resource.h
+-
+sys/time.h
+-
+sys/wait.h
+-
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Ptrdist/anagram/anagram.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+setjmp.h
+-
+unistd.h
+-
+hacks.h
+/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Ptrdist/anagram/hacks.h
+stdlib_tainted.h
+-
+stdio_tainted.h
+-
+
+/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Ptrdist/anagram/hacks.h
+

@@ -1,0 +1,16 @@
+{"AggregateStats":[{"TotalStats":{"constraints":205,"ptr":107,"ntarr":0,"arr":0,"wild":97"structs":0"Tstructs":0"Decoy Tstructs":0}},{"ArrBoundsStats":{"NumPointersNeedBounds":0,"NumNTNoBounds":0,"Details":{"Invalid":0,"BoundsFound":{"ArrayBoundsInferenceStats":{"NamePrefixMatch":0,
+"AllocatorMatch":0,
+"VariableNameMatch":0,
+"NeighbourParamMatch":0,
+"DataflowMatch":0,
+"Declared":0,
+"DeclaredButNotHandled":0
+}}}}},{"NtArrBoundsStats":{"NumPointersNeedBounds":0,"NumNTNoBounds":0,"Details":{"Invalid":0,"BoundsFound":{"ArrayBoundsInferenceStats":{"NamePrefixMatch":0,
+"AllocatorMatch":0,
+"VariableNameMatch":0,
+"NeighbourParamMatch":0,
+"DataflowMatch":0,
+"Declared":0,
+"DeclaredButNotHandled":0
+}}}}},{"PerformanceStats":[{"TimeStats": {"TotalTime":2.309055e+00, "ConstraintBuilderTime":3.765420e-01, "ConstraintSolverTime":5.136300e-02, "ArrayBoundsInferenceTime":2.826600e-02, "RewritingTime":2.048870e-01}},
+{"ReWriteStats":{"NumAssumeBoundsCasts":0, "NumCheckedCasts":0, "NumTstructs":3, "NumDecoyTstructs":0, "Structs":0, "NumWildCasts":0, "NumFixedCasts":0, "NumITypes":71, "NumCheckedRegions":0, "NumTaintedRegions":0, "NumUnCheckedRegions":0}}]}]}

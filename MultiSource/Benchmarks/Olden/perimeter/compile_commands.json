@@ -1,0 +1,56 @@
+[
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/perimeter.dir/args.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/perimeter/args.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/perimeter",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/perimeter/args.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/perimeter/CMakeFiles/perimeter.dir/args.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/perimeter.dir/main.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/perimeter/main.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/perimeter",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/perimeter/main.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/perimeter/CMakeFiles/perimeter.dir/main.c.o"
+  },
+  {
+    "arguments": [
+      "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang",
+      "-DNDEBUG",
+      "-O0",
+      "-g",
+      "-w",
+      "-Werror=date-time",
+      "-DTORONTO",
+      "-c",
+      "-o",
+      "CMakeFiles/perimeter.dir/maketree.c.o",
+      "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/perimeter/maketree.c"
+    ],
+    "directory": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/perimeter",
+    "file": "/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/perimeter/maketree.c",
+    "output": "/home/arun/Desktop/test-suite-build/MultiSource/Benchmarks/Olden/perimeter/CMakeFiles/perimeter.dir/maketree.c.o"
+  }
+]

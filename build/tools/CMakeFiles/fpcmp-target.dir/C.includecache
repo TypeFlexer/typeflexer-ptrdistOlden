@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arun/Desktop/typeflexer-llvm-test-suite/tools/fpcmp.c
+ctype.h
+-
+math.h
+-
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

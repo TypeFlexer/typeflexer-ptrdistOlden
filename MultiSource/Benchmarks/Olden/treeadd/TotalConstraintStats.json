@@ -1,0 +1,6 @@
+{"Stats":{"ConstraintStats":{"Individual":[{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/args.c":{"constraints":3,"ptr":0,"ntarr":0,"arr":0,"wild":3}},
+{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/node.c":{"constraints":6,"ptr":6,"ntarr":0,"arr":0,"wild":0}},
+{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/par-alloc.c":{"constraints":5,"ptr":4,"ntarr":0,"arr":0,"wild":1}},
+{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/tree.h":{"constraints":4,"ptr":4,"ntarr":0,"arr":0,"wild":0}}],"Summary":{"TotalConstraints":18,"TotalPtrs":14,"TotalNTArr":0,"TotalArr":0,"TotalWild":4}},
+"PerformanceStats":[{"TimeStats": {"TotalTime":5.813660e-01, "ConstraintBuilderTime":4.262100e-02, "ConstraintSolverTime":3.290300e-02, "ArrayBoundsInferenceTime":6.410000e-03, "RewritingTime":4.346700e-02}},
+{"ReWriteStats":{"NumAssumeBoundsCasts":0, "NumCheckedCasts":0, "NumWildCasts":0, "NumFixedCasts":3, "NumITypes":2, "NumCheckedRegions":0, "NumUnCheckedRegions":0}}]}}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-update.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/home/arun/Desktop/typeflexer-llvm-test-suite/build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

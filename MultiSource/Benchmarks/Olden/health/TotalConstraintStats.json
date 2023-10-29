@@ -1,0 +1,7 @@
+{"Stats":{"ConstraintStats":{"Individual":[{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/args.c":{"constraints":2,"ptr":0,"ntarr":0,"arr":0,"wild":2}},
+{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/health.c":{"constraints":41,"ptr":27,"ntarr":0,"arr":0,"wild":14}},
+{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/health.h":{"constraints":32,"ptr":25,"ntarr":0,"arr":0,"wild":7}},
+{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/list.c":{"constraints":8,"ptr":3,"ntarr":0,"arr":0,"wild":5}},
+{"/home/arun/Desktop/typeflexer-llvm-test-suite/MultiSource/Benchmarks/Olden/health/poisson.c":{"constraints":0,"ptr":0,"ntarr":0,"arr":0,"wild":0}}],"Summary":{"TotalConstraints":83,"TotalPtrs":55,"TotalNTArr":0,"TotalArr":0,"TotalWild":28}},
+"PerformanceStats":[{"TimeStats": {"TotalTime":2.237562e+00, "ConstraintBuilderTime":2.313830e-01, "ConstraintSolverTime":7.926000e-02, "ArrayBoundsInferenceTime":2.853400e-02, "RewritingTime":1.705280e-01}},
+{"ReWriteStats":{"NumAssumeBoundsCasts":4, "NumCheckedCasts":0, "NumWildCasts":3, "NumFixedCasts":2, "NumITypes":30, "NumCheckedRegions":0, "NumUnCheckedRegions":0}}]}}

@@ -1,0 +1,8 @@
+add_subdirectory(CUDA)
+add_subdirectory(HIP)
+add_subdirectory(HMMER)
+add_subdirectory(Nurbs)
+add_subdirectory(Povray)
+add_subdirectory(SPEC)
+add_subdirectory(skidmarks10)
+add_subdirectory(sollve_vv)

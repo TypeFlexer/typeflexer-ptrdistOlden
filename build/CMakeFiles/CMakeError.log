@@ -1,0 +1,377 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6484d/fast && /usr/bin/make -f CMakeFiles/cmTC_6484d.dir/build.make CMakeFiles/cmTC_6484d.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6484d.dir/OpenMPTryFlag.c.o
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang   -fopenmp=libomp -v   -o CMakeFiles/cmTC_6484d.dir/OpenMPTryFlag.c.o   -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 12.0.0 (git@github.com:TypeFlexer/TypeFlexer-Clang.git 02c5dfe77bdda2378d9488a033229fc2a3aa1c57)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -main-file-name OpenMPTryFlag.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0 -internal-isystem /usr/local/include -internal-isystem /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_6484d.dir/OpenMPTryFlag.c.o -x c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 12.0.0 based upon CheckedC-Clang 12.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6484d.dir/build.make:66: CMakeFiles/cmTC_6484d.dir/OpenMPTryFlag.c.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6484d/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5122c/fast && /usr/bin/make -f CMakeFiles/cmTC_5122c.dir/build.make CMakeFiles/cmTC_5122c.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5122c.dir/OpenMPTryFlag.c.o
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang   -fopenmp=libiomp5 -v   -o CMakeFiles/cmTC_5122c.dir/OpenMPTryFlag.c.o   -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 12.0.0 (git@github.com:TypeFlexer/TypeFlexer-Clang.git 02c5dfe77bdda2378d9488a033229fc2a3aa1c57)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -main-file-name OpenMPTryFlag.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0 -internal-isystem /usr/local/include -internal-isystem /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_5122c.dir/OpenMPTryFlag.c.o -x c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 12.0.0 based upon CheckedC-Clang 12.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_5122c.dir/build.make:66: CMakeFiles/cmTC_5122c.dir/OpenMPTryFlag.c.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5122c/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1631/fast && /usr/bin/make -f CMakeFiles/cmTC_f1631.dir/build.make CMakeFiles/cmTC_f1631.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1631.dir/OpenMPTryFlag.c.o
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang   -fopenmp -v   -o CMakeFiles/cmTC_f1631.dir/OpenMPTryFlag.c.o   -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 12.0.0 (git@github.com:TypeFlexer/TypeFlexer-Clang.git 02c5dfe77bdda2378d9488a033229fc2a3aa1c57)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -main-file-name OpenMPTryFlag.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0 -internal-isystem /usr/local/include -internal-isystem /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_f1631.dir/OpenMPTryFlag.c.o -x c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 12.0.0 based upon CheckedC-Clang 12.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f1631.dir/build.make:66: CMakeFiles/cmTC_f1631.dir/OpenMPTryFlag.c.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f1631/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40409/fast && /usr/bin/make -f CMakeFiles/cmTC_40409.dir/build.make CMakeFiles/cmTC_40409.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40409.dir/src.cxx.o
+/usr/bin/g++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_40409.dir/src.cxx.o -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-Wshorten-64-to-32'
+g++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[1]: *** [CMakeFiles/cmTC_40409.dir/build.make:66: CMakeFiles/cmTC_40409.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_40409/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0de4a/fast && /usr/bin/make -f CMakeFiles/cmTC_0de4a.dir/build.make CMakeFiles/cmTC_0de4a.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0de4a.dir/src.cxx.o
+/usr/bin/g++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_0de4a.dir/src.cxx.o -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-wd654'
+g++: error: unrecognized command line option '-wd654'
+make[1]: *** [CMakeFiles/cmTC_0de4a.dir/build.make:66: CMakeFiles/cmTC_0de4a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0de4a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bde34/fast && /usr/bin/make -f CMakeFiles/cmTC_bde34.dir/build.make CMakeFiles/cmTC_bde34.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bde34.dir/src.cxx.o
+/usr/bin/g++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_bde34.dir/src.cxx.o -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-Wthread-safety'
+g++: error: unrecognized command line option '-Wthread-safety'
+make[1]: *** [CMakeFiles/cmTC_bde34.dir/build.make:66: CMakeFiles/cmTC_bde34.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bde34/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48158/fast && /usr/bin/make -f CMakeFiles/cmTC_48158.dir/build.make CMakeFiles/cmTC_48158.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48158.dir/src.c.o
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_48158.dir/src.c.o   -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_48158
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48158.dir/link.txt --verbose=1
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang     -DCMAKE_HAVE_LIBC_PTHREAD       CMakeFiles/cmTC_48158.dir/src.c.o  -o cmTC_48158 
+/usr/bin/ld: CMakeFiles/cmTC_48158.dir/src.c.o: in function `main':
+src.c:(.text+0x35): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x3e): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x4b): undefined reference to `pthread_join'
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_48158.dir/build.make:87: cmTC_48158] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_48158/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_FXRAY_INSTRUMENT failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f6a1/fast && /usr/bin/make -f CMakeFiles/cmTC_1f6a1.dir/build.make CMakeFiles/cmTC_1f6a1.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f6a1.dir/src.cxx.o
+/usr/bin/g++    -DCOMPILER_HAS_FXRAY_INSTRUMENT   -fxray-instrument -o CMakeFiles/cmTC_1f6a1.dir/src.cxx.o -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-fxray-instrument'
+make[1]: *** [CMakeFiles/cmTC_1f6a1.dir/build.make:66: CMakeFiles/cmTC_1f6a1.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1f6a1/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if files xray/xray_interface.h exist failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f319/fast && /usr/bin/make -f CMakeFiles/cmTC_7f319.dir/build.make CMakeFiles/cmTC_7f319.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f319.dir/HAVE_XRAY_INTERFACE_INCLUDE.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_7f319.dir/HAVE_XRAY_INTERFACE_INCLUDE.cpp.o -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CheckIncludeFiles/HAVE_XRAY_INTERFACE_INCLUDE.cpp
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CheckIncludeFiles/HAVE_XRAY_INTERFACE_INCLUDE.cpp:2:10: fatal error: xray/xray_interface.h: No such file or directory
+    2 | #include <xray/xray_interface.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7f319.dir/build.make:66: CMakeFiles/cmTC_7f319.dir/HAVE_XRAY_INTERFACE_INCLUDE.cpp.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7f319/fast] Error 2
+
+
+Source:
+/* */
+#include <xray/xray_interface.h>
+
+
+int main(void){return 0;}
+
+Determining if the __ARM_NEON exist failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99abe/fast && /usr/bin/make -f CMakeFiles/cmTC_99abe.dir/build.make CMakeFiles/cmTC_99abe.dir/build
+make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99abe.dir/CheckSymbolExists.c.o
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang    -o CMakeFiles/cmTC_99abe.dir/CheckSymbolExists.c.o   -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__ARM_NEON'
+  return ((int*)(&__ARM_NEON))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_99abe.dir/build.make:66: CMakeFiles/cmTC_99abe.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_99abe/fast] Error 2
+
+
+File /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __ARM_NEON
+  return ((int*)(&__ARM_NEON))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a2ad8/fast && make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a2ad8.dir/build.make CMakeFiles/cmTC_a2ad8.dir/build
+make[2]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2ad8.dir/OpenMPTryFlag.c.o
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang   -fopenmp=libomp -v   -o CMakeFiles/cmTC_a2ad8.dir/OpenMPTryFlag.c.o   -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 12.0.0 (git@github.com:TypeFlexer/TypeFlexer-Clang.git 02c5dfe77bdda2378d9488a033229fc2a3aa1c57)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -main-file-name OpenMPTryFlag.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0 -internal-isystem /usr/local/include -internal-isystem /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_a2ad8.dir/OpenMPTryFlag.c.o -x c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 12.0.0 based upon CheckedC-Clang 12.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_a2ad8.dir/build.make:66: CMakeFiles/cmTC_a2ad8.dir/OpenMPTryFlag.c.o] Error 1
+make[2]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_a2ad8/fast] Error 2
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1062c/fast && make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1062c.dir/build.make CMakeFiles/cmTC_1062c.dir/build
+make[2]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1062c.dir/OpenMPTryFlag.c.o
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang   -fopenmp=libiomp5 -v   -o CMakeFiles/cmTC_1062c.dir/OpenMPTryFlag.c.o   -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 12.0.0 (git@github.com:TypeFlexer/TypeFlexer-Clang.git 02c5dfe77bdda2378d9488a033229fc2a3aa1c57)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -main-file-name OpenMPTryFlag.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0 -internal-isystem /usr/local/include -internal-isystem /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_1062c.dir/OpenMPTryFlag.c.o -x c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 12.0.0 based upon CheckedC-Clang 12.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_1062c.dir/build.make:66: CMakeFiles/cmTC_1062c.dir/OpenMPTryFlag.c.o] Error 1
+make[2]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_1062c/fast] Error 2
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6929e/fast && make[1]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6929e.dir/build.make CMakeFiles/cmTC_6929e.dir/build
+make[2]: Entering directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6929e.dir/OpenMPTryFlag.c.o
+/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang   -fopenmp -v   -o CMakeFiles/cmTC_6929e.dir/OpenMPTryFlag.c.o   -c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 12.0.0 (git@github.com:TypeFlexer/TypeFlexer-Clang.git 02c5dfe77bdda2378d9488a033229fc2a3aa1c57)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -main-file-name OpenMPTryFlag.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0 -internal-isystem /usr/local/include -internal-isystem /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_6929e.dir/OpenMPTryFlag.c.o -x c /home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 12.0.0 based upon CheckedC-Clang 12.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/lib/clang/12.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_6929e.dir/build.make:66: CMakeFiles/cmTC_6929e.dir/OpenMPTryFlag.c.o] Error 1
+make[2]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_6929e/fast] Error 2
+make[1]: Leaving directory '/home/arun/Desktop/typeflexer-llvm-test-suite/build/CMakeFiles/CMakeTmp'
+
+
+

@@ -1,0 +1,1 @@
+/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary stdthreadbug.link.time /usr/bin/g++       -O3      CMakeFiles/stdthreadbug.dir/stdthreadbug.cpp.o  -o stdthreadbug  -pthread 
