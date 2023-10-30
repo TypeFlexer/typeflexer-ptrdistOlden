@@ -1,7 +1,7 @@
 option(wasmsbx "Use WASM SBX" OFF)
 
 # Setting compilers
-set(CMAKE_C_COMPILER "/home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang")
+set(CMAKE_C_COMPILER "clang")
 set(CMAKE_CXX_COMPILER "g++")
 
 # Adding compile flags
