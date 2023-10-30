@@ -13,4 +13,3 @@ target_link_libraries(ft
         #"/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
 )
 set(HASH_PROGRAM_OUTPUT 1)
-llvm_multisource(ft)

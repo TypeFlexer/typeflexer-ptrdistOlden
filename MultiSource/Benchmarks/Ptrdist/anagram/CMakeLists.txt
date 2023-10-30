@@ -14,5 +14,4 @@ target_link_libraries(anagram
         #"/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
 )
 set(RUN_OPTIONS words 2 < input.OUT)
-llvm_multisource(anagram)
 llvm_test_data(anagram words input.OUT)

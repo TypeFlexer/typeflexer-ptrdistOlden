@@ -14,5 +14,4 @@ target_link_libraries(yacr2
 list(APPEND CPPFLAGS -DTODD)
 set(RUN_OPTIONS input2.in)
 set(HASH_PROGRAM_OUTPUT 1)
-llvm_multisource(yacr2)
 llvm_test_data(yacr2 input2.in)
