@@ -8,8 +8,8 @@ set(CMAKE_CXX_COMPILER "g++")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fwasmsbx -DWASM_SBX -fPIE")
 llvm_multisource(anagram)
 target_link_libraries(anagram
-        "${CMAKE_SOURCE_DIR}/../../typeflexer_libraries/libSBX_CON_LIB.a"
-        "${CMAKE_SOURCE_DIR}/../../typeflexer_libraries/libisc_lib_final.a"
+        "${CMAKE_SOURCE_DIR}/MultiSource/Benchmarks/typeflexer_libraries/libSBX_CON_LIB.a"
+        "${CMAKE_SOURCE_DIR}/MultiSource/Benchmarks/typeflexer_libraries/libisc_lib_final.a"
         dl
         #"/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
 )
