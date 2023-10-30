@@ -7,5 +7,5 @@ target_link_libraries(power PRIVATE
         "${CMAKE_SOURCE_DIR}/MultiSource/Benchmarks/typeflexer_libraries/libSBX_CON_LIB.a"
         "${CMAKE_SOURCE_DIR}/MultiSource/Benchmarks/typeflexer_libraries/libisc_lib_final.a"
         dl
-        #"/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+        "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
 )
