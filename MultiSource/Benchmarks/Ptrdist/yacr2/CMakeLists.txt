@@ -3,8 +3,8 @@ set(CMAKE_CXX_COMPILER "g++")
 
 # Adding compile flags
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fwasmsbx -DWASM_SBX -fPIE")
-
-target_link_libraries(
+llvm_multisource(yacr2)
+target_link_libraries(yacr2
         "../../typeflexer_libraries/libSBX_CON_LIB.a"
         "../../typeflexer_libraries/libisc_lib_final.a"
         dl

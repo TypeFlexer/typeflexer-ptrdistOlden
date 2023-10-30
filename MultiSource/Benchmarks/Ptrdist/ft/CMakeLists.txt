@@ -5,7 +5,8 @@ else()
 endif()
 list(APPEND CFLAGS -Wno-implicit-int)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fwasmsbx -DWASM_SBX -fPIE")
-target_link_libraries(
+llvm_multisource(ft)
+target_link_libraries(ft
         "../../typeflexer_libraries/libSBX_CON_LIB.a"
         "../../typeflexer_libraries/libisc_lib_final.a"
         dl
