@@ -5,7 +5,11 @@ else()
 endif()
 list(APPEND CFLAGS -Wno-implicit-int)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fwasmsbx -DWASM_SBX -fPIE")
-link_libraries("/home/arun/Desktop/WASM_SBX/libSBX_CON_LIB.a" "/home/arun/Desktop/WASM_SBX/libisc_lib_final.a" dl "/usr/lib/x86_64-linux-gnu/libstdc++.so.6")
-
+target_link_libraries(
+        "../../typeflexer_libraries/libSBX_CON_LIB.a"
+        "../../typeflexer_libraries/libisc_lib_final.a"
+        dl
+        #"/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+)
 set(HASH_PROGRAM_OUTPUT 1)
 llvm_multisource(ft)

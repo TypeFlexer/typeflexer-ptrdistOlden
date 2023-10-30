@@ -17,8 +17,8 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fwasmsbx -DWASM_SBX -fPIE")
 
 # Assuming the target name is voronoi
 target_link_libraries(voronoi
-        "/home/arun/Desktop/WASM_SBX/libSBX_CON_LIB.a"
-        "/home/arun/Desktop/WASM_SBX/libisc_lib_final.a"
+        "../../typeflexer_libraries/libSBX_CON_LIB.a"
+        "../../typeflexer_libraries/libisc_lib_final.a"
         dl
-        "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+        #"/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
 )
