@@ -1,1 +1,0 @@
-/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary index-select.link.time /usr/bin/g++       -O3      CMakeFiles/index-select.dir/index-select.cpp.o  -o index-select 

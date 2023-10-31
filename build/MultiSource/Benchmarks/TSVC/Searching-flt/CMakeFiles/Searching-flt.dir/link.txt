@@ -1,1 +1,0 @@
-/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary Searching-flt.link.time /home/arun/Desktop/TypeFlexer-Clang/llvm/cmake-build-debug/bin/clang      -O3      CMakeFiles/Searching-flt.dir/dummy.c.o CMakeFiles/Searching-flt.dir/tsc.c.o  -o Searching-flt  -lm 

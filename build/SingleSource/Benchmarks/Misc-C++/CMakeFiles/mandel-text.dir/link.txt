@@ -1,1 +1,0 @@
-/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary mandel-text.link.time /usr/bin/g++       -O3      CMakeFiles/mandel-text.dir/mandel-text.cpp.o  -o mandel-text  -lm 

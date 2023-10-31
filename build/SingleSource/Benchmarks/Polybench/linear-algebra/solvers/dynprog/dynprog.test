@@ -1,3 +1,0 @@
-RUN: cd %S ; %S/dynprog 
-VERIFY: %b/HashProgramOutput.sh %o
-VERIFY: %b/fpcmp-target %o %S/dynprog.reference_output

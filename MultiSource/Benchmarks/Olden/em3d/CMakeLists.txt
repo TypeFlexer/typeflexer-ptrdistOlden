@@ -1,8 +1,6 @@
 list(APPEND CPPFLAGS -DTORONTO)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fwasmsbx -DWASM_SBX -fPIE -g")
-llvm_multisource(em3d)
-
-target_link_libraries(em3d
+link_libraries(
         "${CMAKE_SOURCE_DIR}/MultiSource/Benchmarks/typeflexer_libraries/libSBX_CON_LIB.a"
         "${CMAKE_SOURCE_DIR}/MultiSource/Benchmarks/typeflexer_libraries/libisc_lib_final.a"
         dl

@@ -1,1 +1,0 @@
-/home/arun/Desktop/typeflexer-llvm-test-suite/build/tools/timeit --summary Shootout-C++-objinst.link.time /usr/bin/g++       -O3      CMakeFiles/Shootout-C++-objinst.dir/objinst.cpp.o  -o Shootout-C++-objinst  -lm 

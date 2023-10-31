@@ -1,3 +1,0 @@
-RUN: cd %S ; %S/reg_detect 
-VERIFY: %b/HashProgramOutput.sh %o
-VERIFY: %b/fpcmp-target %o %S/reg_detect.reference_output
