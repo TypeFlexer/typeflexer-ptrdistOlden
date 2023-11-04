@@ -12,6 +12,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+#include <stdlib_tainted.h>
 
 #pragma CHECKED_SCOPE ON
 
@@ -46,9 +47,9 @@
  *      the network, first the modules, then the nets
  */
 /* modular view */
-typedef struct _Net {
-    _Ptr<struct _Net> next;
-    unsigned long net;
+typedef Tstruct _Net {
+        _TPtr<Tstruct _Net> next;
+        unsigned long net;
 } Net;
 typedef _TPtr<Net> NetPtr;
 
@@ -57,17 +58,17 @@ extern unsigned long numModules;
 
 /* net-ular view */
 typedef Tstruct _Module {
-    _TPtr<Tstruct _Module> next;
-    unsigned long module;
+        _TPtr<Tstruct _Module> next;
+        unsigned long module;
 } Module;
 typedef _TPtr<Module> ModulePtr;
 
 extern ModulePtr nets _Checked [G_SZ];	/* all nets -> modules */
 extern unsigned long numNets;
 
-typedef struct _ModuleRec {
-    _Ptr<struct _ModuleRec> next;
-    unsigned long module;
+typedef Tstruct _ModuleRec {
+        _TPtr<Tstruct _ModuleRec> next;
+        unsigned long module;
 } ModuleRec;
 typedef _TPtr<ModuleRec> ModuleRecPtr;
 
@@ -94,7 +95,7 @@ void InitLists(void);
 void ComputeDs(ModuleListPtr group, Groups myGroup, Groups mySwap);
 float CAiBj(ModuleRecPtr mrA, ModuleRecPtr mrB);
 void SwapNode(ModuleRecPtr maxPrev, ModuleRecPtr max,
-	      ModuleListPtr group, ModuleListPtr swapTo);
+              ModuleListPtr group, ModuleListPtr swapTo);
 void UpdateDs(ModuleRecPtr max, Groups group);
 float FindMaxGpAndSwap(void);
 void SwapSubsetAndReset(unsigned long iMax);
